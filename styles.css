@@ -103,9 +103,10 @@ p {
 .top-section {
   background-image: url('./images/bg-pattern-intro-desktop.svg'), linear-gradient(90deg,var(--verylred), var(--lred));
   padding-bottom: 10%;
+  padding-top:2% ;
   background-repeat: no-repeat;
-  background-position: -400px -1300px, 0px 0px;
-  border-bottom-left-radius: 60px;
+  background-position: -350px -1300px, 0px 0px;
+  border-bottom-left-radius: 6em ;
   font-family: 'Overpass', sans-serif;
 }
 
@@ -118,7 +119,7 @@ a.dropdown-item:hover {
 }
 
 .nav-item {
-  padding: 5%;
+  padding: 0%;
   margin: 10% 5% 0% 5%;
 }
 
@@ -185,9 +186,13 @@ a.dropdown-item:hover {
 .section-2-header {
   font-size: 2.5rem;
   padding-top: 10%;
+  color:var(--verydblue)
 
 }
+.section-2-subheader{
+  color:var(--verydblue)
 
+}
 .section-2-body {
   align-items: center;
   align-content: center;
@@ -217,6 +222,9 @@ a.dropdown-item:hover {
   width: 75%;
   margin-top: 20%;
 
+}
+.bottom-section-subheader{
+ color:var(--verydblue)
 }
 
 .footer {
