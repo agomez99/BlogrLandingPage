@@ -2,17 +2,13 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="viewport" content="width=device-width" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <title>Frontend Mentor | [Blogr]</title>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="styles.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <script type="module" src="script.js"></script>
 </head>
 
 <body>
@@ -21,17 +17,15 @@
       <nav class="navbar navbar-expand-lg ">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="./images/logo.svg" />
+            <img src="./images/logo.svg" alt="logo" />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarNav" aria-label="Toggle navigation">
             <img src="./images/icon-hamburger.svg" class="open" />
             <img src="./images/icon-close.svg" class="close" />
-
-
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav py-0">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
@@ -73,6 +67,8 @@
 
             </ul>
             <ul class="navbar-nav ms-auto">
+              <hr style="width:90%; margin: auto;">
+
               <li class="nav-item ">
                 <a class="nav-link" href="#">Login</a>
               </li>
@@ -93,7 +89,7 @@
     <div class="container-fluid g-0">
       <h2 class="section-2-header text-center "> Designed for the future</h2>
       <div class="row  g-0">
-        <div class="col-md-6">
+        <div class="col-md-6  g-0">
           <div class="section-2-body">
             <div>
               <h2 class="section-2-subheader"> Introducing an extensible editor</h2>
@@ -115,7 +111,6 @@
         <div class="col-md-6">
           <img src="./images/illustration-editor-desktop.svg" alt="illustration" class="illustration-top">
           <img src="./images/illustration-editor-mobile.svg" alt="illustration" class="illustration-top-mobile">
-
         </div>
       </div>
       <div class="row g-0 phone-row">
@@ -127,8 +122,9 @@
         <div class="col-md-6">
           <div class="infrastructure-section-right">
             <div class="section-3-body">
-              <h2> State of the Art Infrastructure </h2>
-              <p class="section-3-text">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast
+              <h2 class="section-3-header"> State of the Art Infrastructure </h2>
+              <p class="section-3-text">With reliability and speed in mind, worldwide data centers provide the backbone
+                for ultra-fast
                 connectivity.
                 This ensures your site will load instantly, no matter where your readers are, keeping your site
                 competitive.
@@ -137,28 +133,29 @@
           </div>
         </div>
       </div>
-      <div class="row g-0 mt-lg-5">
+      <div class="row g-0">
         <div class="col-md-6">
-          <img src="./images/illustration-laptop-desktop.svg" class="laptop-illustration" />
-          <img src="./images/illustration-laptop-mobile.svg" class="laptop-mobile-illustration" />
-
+          <img src="./images/illustration-laptop-desktop.svg" alt="laptop-illustration" class="laptop-illustration" />
+          <img src="./images/illustration-laptop-mobile.svg" alt="laptop-illustration"
+            class="laptop-mobile-illustration" />
         </div>
         <div class="col-md-6">
           <div class="bottom-section">
             <div class="bottom-body">
-          <h2> Free, open, simple</h2>
-          <p> Blogr is a free and open source application backed by a large community of helpful developers. It supports
-            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
-            tools,
-            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-          </p>
-
-          <h2> Powerful tooling</h2>
-          <p> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment
-            a breeze, but
-            capable of producing even the most complicated sites.</p>
+              <h2> Free, open, simple</h2>
+              <p> Blogr is a free and open source application backed by a large community of helpful developers. It
+                supports
+                features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+                tools,
+                and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+              </p>
+              <h2>Powerful tooling</h2>
+              <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and
+                deployment
+                a breeze, but
+                capable of producing even the most complicated sites.</p>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
@@ -167,18 +164,17 @@
     <img src="./images/logo.svg" alt="logo" class="bottom-logo" />
     <div class="footer-item">
       <h2 class="list-header"> Product</h2>
-      <ul>
+      <ul class="p-0">
         <li>Overview</li>
         <li>Pricing</li>
         <li>Marketplace</li>
         <li>Features</li>
         <li>Integrations</li>
       </ul>
-
     </div>
     <div class="footer-item">
       <h2 class="list-header">Company</h2>
-      <ul>
+      <ul class="p-0">
         <li>About</li>
         <li>Team</li>
         <li>Blog</li>
@@ -187,17 +183,16 @@
     </div>
     <div class="footer-item">
       <h2 class="list-header">Connect</h2>
-      <ul>
+      <ul class="p-0">
         <li>Contact</li>
         <li>Newsletter</li>
         <li>LinkedIn</li>
-
       </ul>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
