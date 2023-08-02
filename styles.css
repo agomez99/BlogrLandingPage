@@ -24,14 +24,7 @@ body {
   margin: auto;
 }
 
-.close,
-.navbar-toggler:not(.collapsed) .open {
-  display: none;
-}
 
-.navbar-toggler:not(.collapsed) .close {
-  display: inline;
-}
 li.nav-item:hover{
   text-decoration: none;
 }
@@ -270,6 +263,10 @@ cursor: pointer;
   background-color: var(--white);
   color:black;
 }
+
+
+
+
   a.nav-link{
     color:black;
     text-align: center;
@@ -412,5 +409,16 @@ cursor: pointer;
     height: fit-content;
     text-align: center;
   }
+
+
+
+  .navbar-toggler:not(.collapsed)> .open {
+    display:none;
+  }
+ 
+  .navbar-toggler.collapsed> .close{
+   display: none;
+  }
+
 
 }
